@@ -1,0 +1,6 @@
+OS 2025 Design Own game demo
+DDL 12/26/25 23:59
+pin my pre video here
+This project features core functionalities including concurrent network communication (using LuaSocket library for non-blocking I/O to avoid the complexity of traditional multithreading with locks), room management (with a RoomsScene-based room list supporting creation, joining, and switching), 
+user interaction (using non-blocking I/O to handle both user input and server messages simultaneously), modular design (with each functional module independently encapsulated for easy maintenance and expansion), high-reliability protocols (using length-prefixed and JSON formats to resolve TCP packet maling), 
+and a lightweight concurrency model (simulating concurrent processing with non-blocking I/O to avoid lock contention issues).
