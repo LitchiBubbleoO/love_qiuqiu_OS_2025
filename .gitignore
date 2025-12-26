@@ -1,0 +1,3 @@
+*.dSYM
+*.log
+/客户端/build/
